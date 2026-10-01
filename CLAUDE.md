@@ -1431,3 +1431,28 @@ O visitante deve conseguir, em poucos segundos:
 A prioridade deve ser:
 
 **Confiança → Clareza → Conversão → SEO → Performance.**
+
+---
+
+# Status atual (01/10/2026)
+
+* MVP migrado para Next.js + TypeScript, preservando 1:1 o design/cores do protótipo HTML original.
+* Deploy de preview funcionando na Vercel: https://odonto-vianopolis.vercel.app
+* Repositório no GitHub: https://github.com/diegolauar/landpage-odonto (branch `main`, sincronizado)
+* Dr. Álvaro Amaral já é membro real da equipe (nome, CRO-MG 62817, foto e especialidade reais, extraídos de um pôster de divulgação)
+* WhatsApp da clínica já atualizado para o número real: `+5531999725519`
+
+## Aguardando validação do cliente antes do deploy final
+
+* Dra. Mariana Oliveira e Dra. Camila Ferreira — ainda fictícias (trocar por profissionais reais ou remover os cards?)
+* Depoimentos — ainda fictícios, precisam ser substituídos por depoimentos reais e autorizados pelos pacientes
+* Fotos reais da clínica (recepção, consultórios, equipamentos, ambiente, fachada) — hoje são placeholders "Foto: ..."
+* Conferir endereço, horários, telefone fixo, e-mail e redes sociais em `src/config/clinic.ts` (ainda fictícios)
+
+## Próximos passos (depois da aprovação do cliente)
+
+1. Atualizar os dados fictícios acima em `src/config/clinic.ts`
+2. Conectar o domínio `odontovianopolis.com.br` ao projeto na Vercel (DNS + HTTPS)
+3. Configurar Google Search Console, enviar sitemap e solicitar indexação
+4. Configurar/otimizar o Google Business Profile
+5. Promover o deploy pra produção com o domínio definitivo
