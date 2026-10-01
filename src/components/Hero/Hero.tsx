@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { clinic } from "@/config/clinic";
 import { WhatsAppButton } from "@/components/WhatsAppButton/WhatsAppButton";
 
@@ -39,7 +40,19 @@ export function Hero() {
         </ul>
       </div>
       <div className="hero-media">
-        <div className="foto">Foto: dentista atendendo / profissional sorrindo</div>
+        <div className="foto">
+          {clinic.heroImage ? (
+            <Image
+              src={clinic.heroImage}
+              alt={clinic.heroImageAlt}
+              fill
+              priority
+              sizes="(max-width: 900px) 100vw, 500px"
+            />
+          ) : (
+            "Foto: dentista atendendo / profissional sorrindo"
+          )}
+        </div>
         <div className="hero-card">
           <span>AGENDE SUA AVALIAÇÃO</span>
           <WhatsAppButton events={["click_whatsapp"]}>

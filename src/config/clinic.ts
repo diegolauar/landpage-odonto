@@ -22,6 +22,8 @@ export const clinic = {
   heroHeadlineScript: "boas mãos.",
   heroSubheadline:
     "Atendimento odontológico completo, personalizado e humanizado para cuidar da sua saúde e transformar seu sorriso.",
+  heroImage: "/images/hero/alvaro-amaral.jpg",
+  heroImageAlt: "Dr. Álvaro Amaral, cirurgião-dentista da Odonto Vianópolis",
 
   phone: "+553133334444",
   phoneDisplay: "(31) 3333-4444",
