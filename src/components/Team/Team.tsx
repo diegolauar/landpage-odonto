@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { team } from "@/config/clinic";
 
 export function Team() {
@@ -10,7 +11,18 @@ export function Team() {
       <ul className="team">
         {team.map((member) => (
           <li key={member.id}>
-            <div className="foto">Foto: {member.name}</div>
+            <div className="foto">
+              {member.image ? (
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  sizes="(max-width: 600px) 100vw, 33vw"
+                />
+              ) : (
+                `Foto: ${member.name}`
+              )}
+            </div>
             <div>
               <h3>{member.name}</h3>
               <span className="role">

@@ -171,11 +171,13 @@ export const team: TeamMember[] = [
     specialty: "Especialista em Dentística e Estética.",
   },
   {
-    id: "rafael-mendes",
-    name: "Dr. Rafael Mendes",
+    id: "alvaro-amaral",
+    name: "Dr. Álvaro Amaral",
     role: "Cirurgião-Dentista",
-    credential: "CRO-MG 00000",
-    specialty: "Especialista em Implantodontia.",
+    credential: "CRO-MG 62817",
+    specialty:
+      "Especialista em Implante e Prótese, pós-graduado em Periodontia.",
+    image: "/images/team/alvaro-amaral.jpg",
   },
   {
     id: "camila-ferreira",
