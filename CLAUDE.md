@@ -1440,7 +1440,7 @@ A prioridade deve ser:
 * Deploy de preview funcionando na Vercel: https://odonto-vianopolis.vercel.app
 * Repositório no GitHub: https://github.com/diegolauar/landpage-odonto (branch `main`, sincronizado)
 * Dr. Álvaro Amaral já é membro real da equipe (nome, CRO-MG 62817, foto e especialidade reais, extraídos de um pôster de divulgação)
-* WhatsApp da clínica já atualizado para o número real: `+5531999725519`
+* WhatsApp da clínica já atualizado para o número real: `+5531999999999`
 
 ## Aguardando validação do cliente antes do deploy final
 

@@ -28,8 +28,8 @@ export const clinic = {
   phone: "+553133334444",
   phoneDisplay: "(31) 3333-4444",
 
-  whatsapp: "+5531999725519",
-  whatsappDisplay: "(31) 99972-5519",
+  whatsapp: "+5531999999999",
+  whatsappDisplay: "(31) 99999-9999",
   whatsappDefaultMessage:
     "Olá! Gostaria de agendar uma avaliação na Odonto Vianópolis.",
 
